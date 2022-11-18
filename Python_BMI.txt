@@ -1,0 +1,13 @@
+name=input('Enter your name:') 
+height=float(input("Enter your height in inches:"))
+weight=float(input("Enter your weight in pounds:")) 
+BMI=weight/height**2*703 
+print(f"You BMI is {BMI}")
+if BMI<=18.4: 
+print("Underweight.") 
+elif BMI<=24.9: 
+print("Normal.") 
+elif BMI<=29.9: 
+print("Overweight.") 
+else:
+print("Obese.")
